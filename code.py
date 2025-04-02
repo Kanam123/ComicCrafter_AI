@@ -15,7 +15,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Using device: {device}")
 
 # Hugging Face token for gated models (replace with your token)
-hf_token = "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"
+hf_token = "paste your hf_token"
 
 # Configure 4-bit quantization for text generation (only if CUDA is available)
 quantization_config = None
